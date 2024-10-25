@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pinkray_shopping_aos_1729827851458-push-trigger-input-set
+  identifier: Build_pinkray_shopping_aos_1729827851458pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_pinkray_shopping_aos_1729827851458
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
