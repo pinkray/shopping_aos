@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pinkray_shopping_aos_1729827851458-pr-trigger-input-set
+  identifier: Build_pinkray_shopping_aos_1729827851458prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_pinkray_shopping_aos_1729827851458
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
